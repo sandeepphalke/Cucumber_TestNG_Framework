@@ -1,0 +1,12 @@
+stepdefinitions\SignInDefinitions.class
+stepdefinitions\Hooks.class
+pages\HomePage.class
+pages\SignInPage.class
+pages\CreateUserPage.class
+stepdefinitions\UserHomeDefinitions.class
+pages\UserHomePage.class
+pages\CommonPage.class
+stepdefinitions\CreateUserDefinitions.class
+utils\TestBase.class
+stepdefinitions\HomeDefinitions.class
+stepdefinitions\CommonDefinitions.class

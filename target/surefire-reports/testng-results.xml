@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UNICEF_Cucumber_TestNG_Automation_Framework" duration-ms="88920" started-at="2022-12-13T11:07:18Z" finished-at="2022-12-13T11:08:47Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6093dd95]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression" duration-ms="88920" started-at="2022-12-13T11:07:18Z" finished-at="2022-12-13T11:08:47Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@6093dd95]" name="setUpClass" is-config="true" duration-ms="690" started-at="2022-12-13T16:37:18Z" finished-at="2022-12-13T16:37:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31ddb930]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6093dd95]" name="runScenario" duration-ms="17680" started-at="2022-12-13T16:37:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-13T16:37:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change language from English to French"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Language change in SMT application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at pages.HomePage.isCorrectHomePageTextExist(HomePage.java:100)
+	at stepdefinitions.HomeDefinitions.is_displayed_on_the_home_page(HomeDefinitions.java:38)
+	at ✽."Accueilly" is displayed on the home page(file:///C:/Users/Sandeepkumar.Phalke/eclipse-workspace/UNICEF_Cucumber_TestNG_Automation_Framework/src/test/resources/features/languageChange.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6093dd95]" name="runScenario" duration-ms="17916" started-at="2022-12-13T16:37:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-13T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change language from French to French"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Language change in SMT application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6093dd95]" name="runScenario" duration-ms="20364" started-at="2022-12-13T16:37:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-13T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change language from French to English"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Language change in SMT application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@6093dd95]" name="runScenario" duration-ms="31800" started-at="2022-12-13T16:38:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-13T16:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Change language from English to French and verify sign in Page in french"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Language change in SMT application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6093dd95]" name="tearDownClass" is-config="true" duration-ms="436" started-at="2022-12-13T16:38:47Z" finished-at="2022-12-13T16:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Regression -->
+  </suite> <!-- UNICEF_Cucumber_TestNG_Automation_Framework -->
+</testng-results>
